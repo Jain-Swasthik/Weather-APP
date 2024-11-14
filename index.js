@@ -17,7 +17,7 @@ let w_pressure = document.querySelector(".weather_pressure");
 let citySearch = document.querySelector(".weather_search");
 
 
-const api_key="b0f5ccc6bf51f0f34ad7fc2e16d3ef"
+const api_key=""
 // Function to get the country name from the country code using Intl.DisplayNames API
 const getCountryName = (code) => {
   return new Intl.DisplayNames([code], { type: "region" }).of(code);
